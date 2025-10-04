@@ -1,0 +1,201 @@
+{
+  "id": "proj_1759569014028",
+  "name": "practical_skills_training_for_e-commerce_&_retail_success",
+  "description": "Develop practical, data-driven analytical skills for application within the e-commerce and retail industries.",
+  "schema": "1.0",
+  "owner": "system",
+  "created_by": "blueprint_generator",
+  "created_on": "2025-10-04T09:10:14.028Z",
+  "modified_by": "blueprint_generator",
+  "modified_on": "2025-10-04T09:10:14.028Z",
+  "published_on": "2025-10-04T09:10:14.028Z",
+  "category": "Web Development",
+  "version": "1.0.0",
+  "locale": "en_US",
+  "plan_spec": {
+    "tech_domain": "Web Development",
+    "tech_subdomain": "Full Stack",
+    "application_domain": "General",
+    "application_subdomain": "",
+    "target_audience": "IT Operations Analysts",
+    "difficulty_level": "not determined",
+    "time_constraints": "1-3 months",
+    "prerequisites": [],
+    "scope": [],
+    "feature_set": [],
+    "problem_statement_style": "project-based",
+    "projects": [
+      {
+        "project_name": "practical_skills_training_for_e-commerce_&_retail_success",
+        "tech_domain": "Web Development",
+        "tech_subdomain": "Full Stack",
+        "skill": "Core development",
+        "tech_stack": {
+          "language": {
+            "name": "Python",
+            "version": "latest"
+          },
+          "framework": {
+            "name": "Pandas",
+            "version": "latest"
+          }
+        },
+        "testing": {
+          "unit_testing": {
+            "framework": "Jest",
+            "is_required": true,
+            "library": "Testing Library"
+          },
+          "integration_testing": null,
+          "end_to_end_or_api_testing": {
+            "tool": "Postman",
+            "is_required": false
+          }
+        },
+        "scope": {
+          "Core Concepts": [],
+          "Project-Specific": []
+        },
+        "prerequisites": [],
+        "runtime_environment": {
+          "language_version": "latest",
+          "build_tool": "npm",
+          "ide": "VS Code",
+          "os_requirements": "Any",
+          "runtime": "Node.js",
+          "package_manager": "npm"
+        },
+        "learning_outcomes": [],
+        "feature_set": [],
+        "api_documentation": {
+          "endpoint": "/api/v1",
+          "method": "GET",
+          "request_body": "{}",
+          "response_body": "Success response"
+        },
+        "output_resource_type": "code",
+        "dependency_type": null,
+        "modules_and_activities": {
+          "modules": [
+            {
+              "module_title": "Module 1: Foundation & Setup",
+              "activities": [
+                {
+                  "activity_name": "Setup Python Environment",
+                  "description": "Install Python and set up a Jupyter Notebook environment. Verify installation by running a test script that prints 'Hello, World!' in a Jupyter cell.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Python and Jupyter installed correctly",
+                    "'Hello, World!' printed in a Jupyter Notebook"
+                  ]
+                },
+                {
+                  "activity_name": "Data Cleaning with Pandas",
+                  "description": "Using a provided CSV file of sales data, perform data cleaning operations including handling missing values and correcting data types. Save the cleaned dataset to a new CSV.",
+                  "type": "code_challenge",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Cleaned dataset with no missing values",
+                    "Correct data types applied"
+                  ]
+                },
+                {
+                  "activity_name": "Basic SQL Queries",
+                  "description": "Access a sample database and write SQL queries to retrieve sales data for different periods. Create queries that filter, sort, and calculate basic statistics.",
+                  "type": "hands_on",
+                  "time_estimation": "1.5 hours",
+                  "success_criteria": [
+                    "Correct SQL syntax used",
+                    "Accurate results returned from queries"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Module 2: Core Implementation",
+              "activities": [
+                {
+                  "activity_name": "Visualizing Sales Trends",
+                  "description": "Using Matplotlib and Seaborn, create visual representations of sales trends over time from a provided dataset. Generate line charts and bar graphs to highlight key patterns.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Accurate visualization of sales trends",
+                    "Charts are well-labeled and readable"
+                  ]
+                },
+                {
+                  "activity_name": "Calculate E-commerce KPIs",
+                  "description": "Use Python to calculate key performance indicators such as conversion rate and customer lifetime value from a provided dataset. Document the results and provide insights.",
+                  "type": "code_challenge",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Correctly calculated KPIs",
+                    "Insightful analysis provided"
+                  ]
+                },
+                {
+                  "activity_name": "Interactive Reporting with Power BI",
+                  "description": "Create an interactive sales performance report using Power BI. Incorporate filters and dashboards to allow dynamic data exploration.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Interactive report successfully created",
+                    "Dashboards effectively display sales insights"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Module 3: Capstone & Deployment",
+              "activities": [
+                {
+                  "activity_name": "Capstone Project Planning",
+                  "description": "Outline your capstone project, detailing objectives, data sources, and tools you plan to use. Submit a document with your project outline and timeline for feedback.",
+                  "type": "project",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Clear project objectives and timeline",
+                    "Feedback received from instructor"
+                  ]
+                },
+                {
+                  "activity_name": "Deploy a Simple E-commerce App on AWS",
+                  "description": "Follow step-by-step instructions to deploy a basic e-commerce application on AWS. Ensure the application is live and accessible through a public URL.",
+                  "type": "hands_on",
+                  "time_estimation": "3 hours",
+                  "success_criteria": [
+                    "Successfully deployed app on AWS",
+                    "App accessible from public URL"
+                  ]
+                },
+                {
+                  "activity_name": "API Integration for Live Data",
+                  "description": "Utilize a provided API to integrate real-time sales data into your capstone project. Validate data accuracy and demonstrate the integration in your final presentation.",
+                  "type": "code_challenge",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Successful API data integration",
+                    "Real-time data accurately displayed"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "acceptance_criteria": [],
+    "deliverables": [],
+    "learning_outcomes": [],
+    "learning_style": "hands-on",
+    "assessment_type": "project-based",
+    "lab_configurations": {
+      "plan_id": "proj_1759569014028",
+      "team_id": "default",
+      "company_id": "default"
+    },
+    "user_prompt": "Develop practical, data-driven analytical skills for application within the e-commerce and retail industries."
+  }
+}
