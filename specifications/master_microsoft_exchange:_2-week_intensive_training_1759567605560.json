@@ -1,0 +1,201 @@
+{
+  "id": "proj_1759567605560",
+  "name": "master_microsoft_exchange:_2-week_intensive_training",
+  "description": "To develop foundational skills in Microsoft Exchange server administration, focusing on installation and configuration for corporate IT environments.",
+  "schema": "1.0",
+  "owner": "system",
+  "created_by": "blueprint_generator",
+  "created_on": "2025-10-04T08:46:45.560Z",
+  "modified_by": "blueprint_generator",
+  "modified_on": "2025-10-04T08:46:45.560Z",
+  "published_on": "2025-10-04T08:46:45.560Z",
+  "category": "Web Development",
+  "version": "1.0.0",
+  "locale": "en_US",
+  "plan_spec": {
+    "tech_domain": "Web Development",
+    "tech_subdomain": "Full Stack",
+    "application_domain": "General",
+    "application_subdomain": "",
+    "target_audience": "IT Operations Analysts",
+    "difficulty_level": "Beginner to Intermediate",
+    "time_constraints": "2 weeks",
+    "prerequisites": [],
+    "scope": [],
+    "feature_set": [],
+    "problem_statement_style": "project-based",
+    "projects": [
+      {
+        "project_name": "master_microsoft_exchange:_2-week_intensive_training",
+        "tech_domain": "Web Development",
+        "tech_subdomain": "Full Stack",
+        "skill": "Core development",
+        "tech_stack": {
+          "language": {
+            "name": "Microsoft Exchange 2019",
+            "version": "latest"
+          },
+          "framework": {
+            "name": "PowerShell",
+            "version": "latest"
+          }
+        },
+        "testing": {
+          "unit_testing": {
+            "framework": "Jest",
+            "is_required": true,
+            "library": "Testing Library"
+          },
+          "integration_testing": null,
+          "end_to_end_or_api_testing": {
+            "tool": "Postman",
+            "is_required": false
+          }
+        },
+        "scope": {
+          "Core Concepts": [],
+          "Project-Specific": []
+        },
+        "prerequisites": [],
+        "runtime_environment": {
+          "language_version": "latest",
+          "build_tool": "npm",
+          "ide": "VS Code",
+          "os_requirements": "Any",
+          "runtime": "Node.js",
+          "package_manager": "npm"
+        },
+        "learning_outcomes": [],
+        "feature_set": [],
+        "api_documentation": {
+          "endpoint": "/api/v1",
+          "method": "GET",
+          "request_body": "{}",
+          "response_body": "Success response"
+        },
+        "output_resource_type": "code",
+        "dependency_type": null,
+        "modules_and_activities": {
+          "modules": [
+            {
+              "module_title": "Module 1: Foundation & Setup",
+              "activities": [
+                {
+                  "activity_name": "Basic Exchange Installation",
+                  "description": "Perform the installation of Microsoft Exchange 2019 on a Windows Server 2019 virtual machine. Follow the step-by-step guide provided in the course material to ensure proper setup.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Successfully installed Exchange 2019 with no errors",
+                    "Verification of services running correctly"
+                  ]
+                },
+                {
+                  "activity_name": "PowerShell Scripting Basics",
+                  "description": "Create a PowerShell script that automates the installation prerequisites for Exchange Server. The script should ensure Windows features are enabled and required roles are installed.",
+                  "type": "code_challenge",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Script executes without errors",
+                    "All prerequisites are installed correctly"
+                  ]
+                },
+                {
+                  "activity_name": "Environment Setup Verification",
+                  "description": "Verify your Exchange environment setup using a provided checklist to confirm all services are running, and configurations are in place.",
+                  "type": "hands_on",
+                  "time_estimation": "30 mins",
+                  "success_criteria": [
+                    "Checklist is completed and signed off",
+                    "No missing components in the installation"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Module 2: Core Implementation",
+              "activities": [
+                {
+                  "activity_name": "Mail Flow Configuration",
+                  "description": "Set up mail flow by configuring send and receive connectors in Exchange. Test the configuration by sending and receiving a test email within your test environment.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour 30 mins",
+                  "success_criteria": [
+                    "Successfully configured mail flow",
+                    "Test email is sent and received correctly"
+                  ]
+                },
+                {
+                  "activity_name": "User Mailbox Creation",
+                  "description": "Create multiple user mailboxes and distribution groups using the Exchange Admin Center (EAC) and PowerShell. Verify mailbox accessibility.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Mailboxes and groups created correctly",
+                    "Users can access their mailboxes without issues"
+                  ]
+                },
+                {
+                  "activity_name": "Mid-term Project: Server Maintenance Tasks",
+                  "description": "Perform routine server maintenance tasks covered in the module on your Exchange server setup. Document the steps and results.",
+                  "type": "project",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Maintenance tasks are executed successfully",
+                    "Documentation clearly outlines steps taken"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Module 3: Capstone & Deployment",
+              "activities": [
+                {
+                  "activity_name": "Capstone Project Planning & Setup",
+                  "description": "Plan and set up the environment for your capstone project. Use Git & GitHub for version control to track changes and progress.",
+                  "type": "project",
+                  "time_estimation": "3 hours",
+                  "success_criteria": [
+                    "GitHub repository is set up and initialized",
+                    "Environment setup is completed according to the capstone project needs"
+                  ]
+                },
+                {
+                  "activity_name": "Implementing Security Best Practices",
+                  "description": "Apply security best practices to your Exchange server configuration, including setting up necessary permissions and security policies.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour 30 mins",
+                  "success_criteria": [
+                    "Security settings are correctly applied",
+                    "System checks show improved security posture"
+                  ]
+                },
+                {
+                  "activity_name": "Exchange Backup and Recovery",
+                  "description": "Conduct a full backup of your Exchange server. Perform a test recovery to ensure data integrity and availability.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Successful backup is completed without errors",
+                    "Test recovery verifies data integrity"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "acceptance_criteria": [],
+    "deliverables": [],
+    "learning_outcomes": [],
+    "learning_style": "hands-on",
+    "assessment_type": "project-based",
+    "lab_configurations": {
+      "plan_id": "proj_1759567605560",
+      "team_id": "default",
+      "company_id": "default"
+    },
+    "user_prompt": "To develop foundational skills in Microsoft Exchange server administration, focusing on installation and configuration for corporate IT environments."
+  }
+}
