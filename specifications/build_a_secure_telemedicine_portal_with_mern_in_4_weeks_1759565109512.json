@@ -1,0 +1,201 @@
+{
+  "id": "proj_1759565109512",
+  "name": "build_a_secure_telemedicine_portal_with_mern_in_4_weeks",
+  "description": "To build full-stack web development expertise by creating a secure, real-world telemedicine application using the MERN stack.",
+  "schema": "1.0",
+  "owner": "system",
+  "created_by": "blueprint_generator",
+  "created_on": "2025-10-04T08:05:09.512Z",
+  "modified_by": "blueprint_generator",
+  "modified_on": "2025-10-04T08:05:09.512Z",
+  "published_on": "2025-10-04T08:05:09.512Z",
+  "category": "Web Development",
+  "version": "1.0.0",
+  "locale": "en_US",
+  "plan_spec": {
+    "tech_domain": "Web Development",
+    "tech_subdomain": "Full Stack",
+    "application_domain": "General",
+    "application_subdomain": "",
+    "target_audience": "Intermediate developers new to the MERN stack",
+    "difficulty_level": "Intermediate",
+    "time_constraints": "4 weeks",
+    "prerequisites": [],
+    "scope": [],
+    "feature_set": [],
+    "problem_statement_style": "project-based",
+    "projects": [
+      {
+        "project_name": "build_a_secure_telemedicine_portal_with_mern_in_4_weeks",
+        "tech_domain": "Web Development",
+        "tech_subdomain": "Full Stack",
+        "skill": "Core development",
+        "tech_stack": {
+          "language": {
+            "name": "MongoDB",
+            "version": "latest"
+          },
+          "framework": {
+            "name": "Express.js",
+            "version": "latest"
+          }
+        },
+        "testing": {
+          "unit_testing": {
+            "framework": "Jest",
+            "is_required": true,
+            "library": "Testing Library"
+          },
+          "integration_testing": null,
+          "end_to_end_or_api_testing": {
+            "tool": "Postman",
+            "is_required": false
+          }
+        },
+        "scope": {
+          "Core Concepts": [],
+          "Project-Specific": []
+        },
+        "prerequisites": [],
+        "runtime_environment": {
+          "language_version": "latest",
+          "build_tool": "npm",
+          "ide": "VS Code",
+          "os_requirements": "Any",
+          "runtime": "Node.js",
+          "package_manager": "npm"
+        },
+        "learning_outcomes": [],
+        "feature_set": [],
+        "api_documentation": {
+          "endpoint": "/api/v1",
+          "method": "GET",
+          "request_body": "{}",
+          "response_body": "Success response"
+        },
+        "output_resource_type": "code",
+        "dependency_type": null,
+        "modules_and_activities": {
+          "modules": [
+            {
+              "module_title": "Module 1: Foundation & Setup",
+              "activities": [
+                {
+                  "activity_name": "Environment Setup and Tool Familiarization",
+                  "description": "Set up your local development environment by installing Node.js, MongoDB, and other necessary tools. Create accounts on MongoDB Atlas and Heroku. Verify installations by running basic commands and accessing the MongoDB Atlas dashboard.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Node.js and MongoDB installations verified",
+                    "Access to MongoDB Atlas dashboard confirmed"
+                  ]
+                },
+                {
+                  "activity_name": "Building a Basic Express App",
+                  "description": "Create a simple Express.js server with basic routing and middleware. Implement a RESTful endpoint returning a JSON response. Test using Postman to ensure correct setup and response.",
+                  "type": "code_challenge",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Express server running successfully",
+                    "RESTful endpoint returns expected JSON response"
+                  ]
+                },
+                {
+                  "activity_name": "Designing a Responsive Landing Page with Material-UI",
+                  "description": "Using React and Material-UI, design a responsive landing page including a header, footer, and a main section using Flexbox and Grid layouts. Ensure the page is responsiveness across devices.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Responsive design verified on multiple screen sizes",
+                    "UI elements aligned using Flexbox/Grid"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Module 2: Core Implementation",
+              "activities": [
+                {
+                  "activity_name": "Secure User Registration with JWT",
+                  "description": "Implement user registration functionality using Express.js. Use JWT for creating a token upon successful registration. Save the JWT token in a secure way and verify it on further requests.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "User registration stores tokens securely",
+                    "JWT verified successfully on client requests"
+                  ]
+                },
+                {
+                  "activity_name": "Creating a User Dashboard with React",
+                  "description": "Build a user dashboard using React and Material-UI components. Populate this dashboard with mock data reflecting user appointments and messages. Use React hooks for data management.",
+                  "type": "project",
+                  "time_estimation": "3 hours",
+                  "success_criteria": [
+                    "Dashboard displays mock data correctly",
+                    "UI interaction with user data is functional"
+                  ]
+                },
+                {
+                  "activity_name": "RESTful API Testing with Postman",
+                  "description": "Use Postman to test and document your Express.js RESTful API endpoints. Ensure each endpoint meets the requirements and returns the correct data and status codes.",
+                  "type": "code_challenge",
+                  "time_estimation": "1.5 hours",
+                  "success_criteria": [
+                    "API endpoints documented accurately",
+                    "Postman tests validate endpoint responses"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Module 3: Capstone & Deployment",
+              "activities": [
+                {
+                  "activity_name": "Capstone Project Planning",
+                  "description": "Plan your capstone project implementation, detailing your approach to using the skills from previous modules. Create a schematic diagram of the application architecture and discuss it with your peers or a mentor for feedback.",
+                  "type": "project",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Detailed project plan completed",
+                    "Architecture diagram receives positive feedback"
+                  ]
+                },
+                {
+                  "activity_name": "Implement Role-Based Access Control",
+                  "description": "Enhance your application by implementing role-based access control for different healthcare roles. Test access to certain features based on user roles using JWT.",
+                  "type": "code_challenge",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Role-based features restricted appropriately",
+                    "Access control rules verified with JWT"
+                  ]
+                },
+                {
+                  "activity_name": "Deploying to Heroku",
+                  "description": "Deploy your MERN application to Heroku. Ensure all environment variables are set correctly, and that the application is accessible from the public domain. Test the deployed application functionality.",
+                  "type": "hands_on",
+                  "time_estimation": "3 hours",
+                  "success_criteria": [
+                    "Application deployed and publicly accessible",
+                    "Functional tests pass on deployed application"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "acceptance_criteria": [],
+    "deliverables": [],
+    "learning_outcomes": [],
+    "learning_style": "hands-on",
+    "assessment_type": "project-based",
+    "lab_configurations": {
+      "plan_id": "proj_1759565109512",
+      "team_id": "default",
+      "company_id": "default"
+    },
+    "user_prompt": "To build full-stack web development expertise by creating a secure, real-world telemedicine application using the MERN stack."
+  }
+}
