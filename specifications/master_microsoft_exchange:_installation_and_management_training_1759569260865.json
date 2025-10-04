@@ -1,0 +1,213 @@
+{
+  "id": "proj_1759569260865",
+  "name": "master_microsoft_exchange:_installation_and_management_training",
+  "description": "Develop advanced skills in deploying, configuring, and managing Microsoft Exchange Server for enterprise communication systems.",
+  "schema": "1.0",
+  "owner": "system",
+  "created_by": "blueprint_generator",
+  "created_on": "2025-10-04T09:14:20.865Z",
+  "modified_by": "blueprint_generator",
+  "modified_on": "2025-10-04T09:14:20.865Z",
+  "published_on": "2025-10-04T09:14:20.865Z",
+  "category": "Web Development",
+  "version": "1.0.0",
+  "locale": "en_US",
+  "plan_spec": {
+    "tech_domain": "Web Development",
+    "tech_subdomain": "Full Stack",
+    "application_domain": "General",
+    "application_subdomain": "",
+    "target_audience": "IT Operations Analysts",
+    "difficulty_level": "intermediate",
+    "time_constraints": "8 weeks",
+    "prerequisites": [],
+    "scope": [],
+    "feature_set": [],
+    "problem_statement_style": "project-based",
+    "projects": [
+      {
+        "project_name": "master_microsoft_exchange:_installation_and_management_training",
+        "tech_domain": "Web Development",
+        "tech_subdomain": "Full Stack",
+        "skill": "Core development",
+        "tech_stack": {
+          "language": {
+            "name": "Microsoft Exchange Server 2019",
+            "version": "latest"
+          },
+          "framework": {
+            "name": "Exchange Admin Center (EAC)",
+            "version": "latest"
+          }
+        },
+        "testing": {
+          "unit_testing": {
+            "framework": "Jest",
+            "is_required": true,
+            "library": "Testing Library"
+          },
+          "integration_testing": null,
+          "end_to_end_or_api_testing": {
+            "tool": "Postman",
+            "is_required": false
+          }
+        },
+        "scope": {
+          "Core Concepts": [],
+          "Project-Specific": []
+        },
+        "prerequisites": [],
+        "runtime_environment": {
+          "language_version": "latest",
+          "build_tool": "npm",
+          "ide": "VS Code",
+          "os_requirements": "Any",
+          "runtime": "Node.js",
+          "package_manager": "npm"
+        },
+        "learning_outcomes": [],
+        "feature_set": [],
+        "api_documentation": {
+          "endpoint": "/api/v1",
+          "method": "GET",
+          "request_body": "{}",
+          "response_body": "Success response"
+        },
+        "output_resource_type": "code",
+        "dependency_type": null,
+        "modules_and_activities": {
+          "modules": [
+            {
+              "module_title": "Introduction to Microsoft Exchange Server",
+              "activities": [
+                {
+                  "activity_name": "Active Directory Preparation",
+                  "description": "Set up a new Active Directory Domain Services environment. Verify all necessary components are installed and configured to support Exchange Server. Ensure DNS records are configured.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Successful installation of AD DS",
+                    "Correct DNS configuration for Exchange"
+                  ]
+                },
+                {
+                  "activity_name": "Exchange Server 2019 Installation",
+                  "description": "Download and install Microsoft Exchange 2019. Follow the setup prompts, ensuring all prerequisites are met. Complete a basic configuration post-installation.",
+                  "type": "hands_on",
+                  "time_estimation": "3 hours",
+                  "success_criteria": [
+                    "Successful installation without errors",
+                    "Verification of running services"
+                  ]
+                },
+                {
+                  "activity_name": "Configure Exchange Admin Center",
+                  "description": "Access the Exchange Admin Center and configure basic settings such as email domains, organization information, and policies.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Correct configuration of basic settings",
+                    "Successful login to the EAC"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Pre-Installation Planning",
+              "activities": [
+                {
+                  "activity_name": "Mailbox Creation",
+                  "description": "Create new mailboxes using the Exchange Management Shell. Configure mailbox settings and assign permissions. Test by sending test emails between mailboxes.",
+                  "type": "hands_on",
+                  "time_estimation": "1.5 hours",
+                  "success_criteria": [
+                    "Successful creation of mailboxes",
+                    "Successful send/receive activities"
+                  ]
+                },
+                {
+                  "activity_name": "Manage Distribution Groups",
+                  "description": "Create and manage distribution groups using both the EAC and Exchange Management Shell. Adjust settings and permissions, then test by sending group emails.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Creation and configuration of groups",
+                    "Successful email delivery to groups"
+                  ]
+                },
+                {
+                  "activity_name": "Advanced Mailbox Features",
+                  "description": "Implement advanced mailbox settings such as delegation and forwarding. Use the Exchange Management Shell to script these configurations.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Correct implementation of advanced features",
+                    "Verification via test scenarios"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Installing Microsoft Exchange Server",
+              "activities": [
+                {
+                  "activity_name": "Implement Security Policies",
+                  "description": "Set up security policies in Exchange Server. Configure features like mail flow rules, data loss prevention (DLP), and role-based access control (RBAC).",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Successful policy implementation",
+                    "Demonstration of compliance capabilities"
+                  ]
+                },
+                {
+                  "activity_name": "Server Performance Monitoring Setup",
+                  "description": "Using built-in tools and scripts, set up performance monitoring on the Exchange Server. Identify key performance indicators and configure alerts.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Setup of monitoring tools",
+                    "Key indicators being tracked and validated"
+                  ]
+                },
+                {
+                  "activity_name": "Troubleshooting and Optimization Project",
+                  "description": "Conduct a simulated troubleshooting session for performance issues. Make use of monitoring data to identify problems and implement optimization strategies.",
+                  "type": "project",
+                  "time_estimation": "3 hours",
+                  "success_criteria": [
+                    "Identification of issues",
+                    "Successful optimization and performance enhancement"
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Configuring Exchange Server",
+              "activities": []
+            },
+            {
+              "module_title": "Security and Compliance Management",
+              "activities": []
+            },
+            {
+              "module_title": "Performance Monitoring and Troubleshooting",
+              "activities": []
+            }
+          ]
+        }
+      }
+    ],
+    "acceptance_criteria": [],
+    "deliverables": [],
+    "learning_outcomes": [],
+    "learning_style": "hands-on",
+    "assessment_type": "project-based",
+    "lab_configurations": {
+      "plan_id": "proj_1759569260865",
+      "team_id": "default",
+      "company_id": "default"
+    },
+    "user_prompt": "Develop advanced skills in deploying, configuring, and managing Microsoft Exchange Server for enterprise communication systems."
+  }
+}
