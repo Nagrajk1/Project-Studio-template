@@ -1,0 +1,201 @@
+{
+  "id": "proj_1759727367028",
+  "name": "master_microsoft_exchange:_hands-on_it_training_program",
+  "description": "Develop expert-level skills in configuring and managing Microsoft Exchange email systems, with a specific focus on ensuring secure and efficient mail flow through Send Connector management.",
+  "schema": "1.0",
+  "owner": "system",
+  "created_by": "blueprint_generator",
+  "created_on": "2025-10-06T05:09:27.028Z",
+  "modified_by": "blueprint_generator",
+  "modified_on": "2025-10-06T05:09:27.028Z",
+  "published_on": "2025-10-06T05:09:27.028Z",
+  "category": "Web Development",
+  "version": "1.0.0",
+  "locale": "en_US",
+  "plan_spec": {
+    "tech_domain": "Web Development",
+    "tech_subdomain": "Full Stack",
+    "application_domain": "General",
+    "application_subdomain": "",
+    "target_audience": "IT Operations Analysts",
+    "difficulty_level": "expert",
+    "time_constraints": "1-2 months",
+    "prerequisites": [],
+    "scope": [],
+    "feature_set": [],
+    "problem_statement_style": "project-based",
+    "projects": [
+      {
+        "project_name": "master_microsoft_exchange:_hands-on_it_training_program",
+        "tech_domain": "Web Development",
+        "tech_subdomain": "Full Stack",
+        "skill": "Core development",
+        "tech_stack": {
+          "language": {
+            "name": "Microsoft Exchange",
+            "version": "latest"
+          },
+          "framework": {
+            "name": "PowerShell",
+            "version": "latest"
+          }
+        },
+        "testing": {
+          "unit_testing": {
+            "framework": "Jest",
+            "is_required": true,
+            "library": "Testing Library"
+          },
+          "integration_testing": null,
+          "end_to_end_or_api_testing": {
+            "tool": "Postman",
+            "is_required": false
+          }
+        },
+        "scope": {
+          "Core Concepts": [],
+          "Project-Specific": []
+        },
+        "prerequisites": [],
+        "runtime_environment": {
+          "language_version": "latest",
+          "build_tool": "npm",
+          "ide": "VS Code",
+          "os_requirements": "Any",
+          "runtime": "Node.js",
+          "package_manager": "npm"
+        },
+        "learning_outcomes": [],
+        "feature_set": [],
+        "api_documentation": {
+          "endpoint": "/api/v1",
+          "method": "GET",
+          "request_body": "{}",
+          "response_body": "Success response"
+        },
+        "output_resource_type": "code",
+        "dependency_type": null,
+        "modules_and_activities": {
+          "modules": [
+            {
+              "module_title": "Module 1: Foundation & Setup",
+              "activities": [
+                {
+                  "activity_name": "Set Up Microsoft Exchange Environment",
+                  "description": "Install and configure a basic Microsoft Exchange environment. Ensure all necessary services are running and accessible. Validate the setup by connecting to the Exchange Admin Center.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Microsoft Exchange environment is successfully installed.",
+                    "Access to the Exchange Admin Center is verified."
+                  ]
+                },
+                {
+                  "activity_name": "PowerShell Data Cleaning Exercise",
+                  "description": "Using PowerShell, perform data cleaning tasks on a provided dataset of email logs. Remove duplicates, correct erroneous data entries, and export the cleaned dataset.",
+                  "type": "code_challenge",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "Dataset is free of duplicates.",
+                    "Erroneous entries are corrected."
+                  ]
+                },
+                {
+                  "activity_name": "Explore Monitoring with Azure Monitor",
+                  "description": "Set up Azure Monitor to visualize Exchange server performance data. Create dashboards that track key metrics such as email throughput and server uptime.",
+                  "type": "hands_on",
+                  "time_estimation": "1.5 hours",
+                  "success_criteria": [
+                    "Dashboards are created in Azure Monitor.",
+                    "Key performance metrics are effectively displayed."
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Module 2: Core Implementation",
+              "activities": [
+                {
+                  "activity_name": "Configure Basic Send Connectors",
+                  "description": "Create and configure basic Send Connectors in your Exchange environment. Set routing configurations to ensure outbound mail is correctly relayed to specified domains.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "Send Connectors are configured.",
+                    "Outbound mail is successfully routed."
+                  ]
+                },
+                {
+                  "activity_name": "Email Security Best Practices",
+                  "description": "Implement recommended security configurations in Exchange Admin Center (EAC) to protect against common email threats. Include SPF, DKIM, and DMARC configurations.",
+                  "type": "hands_on",
+                  "time_estimation": "1 hour",
+                  "success_criteria": [
+                    "SPF, DKIM, and DMARC are set up.",
+                    "Security settings are verified."
+                  ]
+                },
+                {
+                  "activity_name": "Troubleshoot Mail Flow Issues",
+                  "description": "Using Microsoft Exchange Toolbox, troubleshoot and resolve common mail flow issues in a provided scenario, such as delayed email delivery or message rejections.",
+                  "type": "code_challenge",
+                  "time_estimation": "1.5 hours",
+                  "success_criteria": [
+                    "Identified and resolved mail flow issues.",
+                    "Emails are delivered without delay."
+                  ]
+                }
+              ]
+            },
+            {
+              "module_title": "Module 3: Capstone & Deployment",
+              "activities": [
+                {
+                  "activity_name": "Capstone Project: Send Connector Deployment",
+                  "description": "Deploy and validate Send Connectors in a comprehensive Exchange environment. Use PowerShell scripts for automation and ensure robust configuration for different email routing scenarios.",
+                  "type": "project",
+                  "time_estimation": "5 hours",
+                  "success_criteria": [
+                    "Send Connectors are deployed correctly.",
+                    "Automation scripts function as intended."
+                  ]
+                },
+                {
+                  "activity_name": "Integrate SMTP Relay for External Email",
+                  "description": "Configure an SMTP relay to allow integration between Microsoft Exchange and an external SMTP server. Validate the communication by sending test emails.",
+                  "type": "hands_on",
+                  "time_estimation": "2 hours",
+                  "success_criteria": [
+                    "SMTP relay is successfully configured.",
+                    "Test emails are delivered to external servers."
+                  ]
+                },
+                {
+                  "activity_name": "Monitor and Optimize Send Connector Performance",
+                  "description": "Use the Microsoft Exchange Toolbox to monitor Send Connector performance. Identify bottlenecks and optimize configurations to improve mail flow efficiency.",
+                  "type": "hands_on",
+                  "time_estimation": "1.5 hours",
+                  "success_criteria": [
+                    "Send Connector performance is effectively monitored.",
+                    "Optimizations improve mail flow efficiency."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "acceptance_criteria": [],
+    "deliverables": [],
+    "learning_outcomes": [],
+    "learning_style": "hands-on",
+    "assessment_type": "project-based",
+    "lab_configurations": {
+      "plan_id": "proj_1759727367028",
+      "team_id": "default",
+      "company_id": "default"
+    },
+    "user_prompt": "Develop expert-level skills in configuring and managing Microsoft Exchange email systems, with a specific focus on ensuring secure and efficient mail flow through Send Connector management."
+  }
+}
